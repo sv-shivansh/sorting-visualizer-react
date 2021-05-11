@@ -1,0 +1,29 @@
+.array-container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.array-bars{
+    width: 10px;
+    display: inline-block;
+    margin: 0px 2px;
+    background-color: rgb(255, 0, 234);
+}
+
+.button-container{
+    position: fixed;
+    align-self: center;
+    top: 85%;
+    left: 35%;
+    justify-content: center;
+}
+
+button{
+    background-color: rgb(177, 28, 28);
+    color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
