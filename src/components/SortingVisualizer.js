@@ -1,7 +1,10 @@
+/* eslint-disable no-loop-func */
 import React, { useState, useEffect, useCallback } from "react";
+import BubbleSort from '../sorting-algos/BubbleSort'
 import "./css/SortingVisualizer.css";
 
 const SortingVisualizer = () => {
+  const DELAY = 10;
   const [arr, setArr] = useState([]);
   const resetArray = useCallback(() => {
     var i = 0;
@@ -21,8 +24,36 @@ const SortingVisualizer = () => {
     resetArray();
   }, [resetArray]);
 
-  function bubbleSort() {alert('Working on this functionality')}
-
+  function bubbleSort() { 
+    const animations = BubbleSort(arr);
+    const prevAnimation = [];
+    for(let i=0; i<animations.length; i++ ){
+      prevAnimation.push(animations[i].comparision)
+      prevAnimation.push(animations[i].comparision)
+      prevAnimation.push(animations[i].swap)
+    }
+      for(let i = 0; i< prevAnimation.length; i++){
+        var bars = document.getElementsByClassName('array-bars');
+        const colorChange = (i % 3 !== 2)
+        if(colorChange){
+          const color = (i % 3 === 0)? 'green': 'rgb(255, 0, 234)'
+          const [one, two] = prevAnimation[i]
+          setTimeout(() => {
+            bars[one].style.backgroundColor = color;
+            bars[two].style.backgroundColor = color;
+          }, i*DELAY)
+        }
+        else{
+          setTimeout(() => {
+            const [one, two] = prevAnimation[i]
+            const tempHeight = bars[two].style.height;
+            bars[two].style.height = `${bars[one].style.height}`;
+            bars[one].style.height = `${tempHeight}`
+          }, i*DELAY)
+        }
+      }
+  }
+  
   function quickSort() {alert('Working on this functionality')}
 
   function mergeSort() {alert('Working on this functionality')}
