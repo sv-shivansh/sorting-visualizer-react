@@ -72,7 +72,6 @@ const SortingVisualizer = () => {
         <button onClick={() => bubbleSort()}>Bubble Sort</button>
         <button onClick={() => mergeSort()}>Merge Sort</button>
         <button onClick={() => quickSort()}>Quick Sort</button>
-
       </div>
     </div>
   );
