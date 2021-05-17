@@ -90,21 +90,6 @@ const SortingVisualizer = () => {
         }, i * DELAY);
       }
     }
-    
-    // for(let i=0; i<animations.length; i++){
-    //   setTimeout(() => {
-    //     (animations[i].pivot)? bars[animations[i].pivot].style.backgroundColor = 'yellow' : bars[animations[i-1].pivot].style.backgroundColor = "rgb(255, 0, 234)"
-    //     const colorChange = i % 3 !== 2;
-    //     if (colorChange) {
-    //     const color = i % 3 === 0 ? "green" : "rgb(255, 0, 234)";
-    //     const [one, two] = prevAnimation[i];
-        
-    //       bars[one].style.backgroundColor = color;
-    //       bars[two].style.backgroundColor = color;
-        
-    //   }
-    //   }, i*1000)
-    // }
   }
 
   function mergeSort() {
