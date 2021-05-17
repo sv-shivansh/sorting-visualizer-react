@@ -1,4 +1,4 @@
-const BubbleSort = (array) => {
+const BubbleSort = async (array) => {
     const animations = [];
     var n = array.length;
     var i,j;
