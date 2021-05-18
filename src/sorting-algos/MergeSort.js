@@ -1,3 +1,8 @@
+/*
+This is the algorithms that are being used in actions along with animations 
+This file is not used nywhere it is just for your reference
+*/
+
 export default function MergeSort(array) {
     const animations = [];
     if (array.length <= 1) return array;

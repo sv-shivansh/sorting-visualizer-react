@@ -1,4 +1,7 @@
 .App {
+  font-weight: 600;
+  margin: 10px;
+  font-size: 30px;
   text-align: center;
   display: flex;
   flex-direction: column;

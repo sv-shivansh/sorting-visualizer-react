@@ -1,3 +1,8 @@
+/*
+This is the algorithms that are being used in actions along with animations 
+This file is not used nywhere it is just for your reference
+*/
+
 const BubbleSort = async (array) => {
     const animations = [];
     var n = array.length;
