@@ -1,9 +1,7 @@
 ### `SnapShot`
 ![image](https://user-images.githubusercontent.com/56015329/117827679-d5fa8f80-b28e-11eb-86b4-19db49a31a65.png)
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## View it live on [Sorting Visualizer](https://app-cluster.herokuapp.com/sorting-visualizer)
 
 ## Available Scripts
 
