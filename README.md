@@ -1,7 +1,7 @@
 ### `SnapShot`
 ![image](https://user-images.githubusercontent.com/56015329/117827679-d5fa8f80-b28e-11eb-86b4-19db49a31a65.png)
 
-## View it live on [Sorting Visualizer](https://app-cluster.herokuapp.com/sorting-visualizer)
+# View it live on [Sorting Visualizer](https://app-cluster.herokuapp.com/sorting-visualizer)
 
 ## Available Scripts
 
